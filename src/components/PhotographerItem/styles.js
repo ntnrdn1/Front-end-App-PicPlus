@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Area = styled.TouchableOpacity`
-  background-color: #2e2866;
+  background-color: #fff;
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 15px;
@@ -22,13 +22,13 @@ export const InfoArea = styled.View`
 export const UserName = styled.Text`
   font-size: 17px;
   font-weight: bold;
-  color: #fff;
+  color: #1e2b42;
 `;
 
 export const SeeProfileButton = styled.TouchableOpacity`
   width: 85px;
   height: 26px;
-  border: 1px solid #fff;
+  border: 1px solid #1e2b42;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -36,5 +36,5 @@ export const SeeProfileButton = styled.TouchableOpacity`
 
 export const SeeProfileButtonText = styled.Text`
   font-size: 13px;
-  color: #fff;
+  color: #1e2b42;
 `;

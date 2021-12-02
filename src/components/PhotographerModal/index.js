@@ -211,7 +211,7 @@ export default ({show, setShow, user, service}) => {
                   style={{
                     opacity: item.status ? 1 : 0.4,
                     backgroundColor:
-                      item.number === selectedDay ? '#1e1b44' : '#000',
+                      item.number === selectedDay ? '#1e2b42' : '#000',
                   }}>
                   <DateItemWeekDay
                     style={{
@@ -243,7 +243,7 @@ export default ({show, setShow, user, service}) => {
                     onPress={() => setSelectedHour(item)}
                     style={{
                       backgroundColor:
-                        item === selectedHour ? '#1e1b44' : '#000',
+                        item === selectedHour ? '#1e2b42' : '#000',
                     }}>
                     <TimeItemText
                       style={{

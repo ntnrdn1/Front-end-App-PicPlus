@@ -19,7 +19,7 @@ export const TabItemCenter = styled.TouchableOpacity`
   align-items: center;
   background-color: #ffffff;
   border-radius: 35px;
-  border: 2px solid #1e1b44;
+  border: 2px solid #1e2b42;
   margin-top: -20px;
 `;
 

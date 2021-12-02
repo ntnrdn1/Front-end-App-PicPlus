@@ -12,7 +12,7 @@ export const Scroller = styled.ScrollView`
 export const SwipeDot = styled.View`
   width: 10px;
   height: 10px;
-  background-color: ${(props) => (props.active === true ? '#1e1b44' : '#fff')};
+  background-color: ${(props) => (props.active === true ? '#1e2b42' : '#fff')};
   border-radius: 5px;
   margin: 3px;
 `;
@@ -33,7 +33,7 @@ export const FakeSwiper = styled.View`
 `;
 
 export const PageBody = styled.View`
-  background-color: #1e1b44;
+  background-color: #1e2b42;
   border-top-left-radius: 50px;
   margin-top: -50px;
   min-height: 400px;
@@ -46,7 +46,7 @@ export const UserAvatar = styled.Image`
   margin-left: 30px;
   margin-right: 20px;
   border-width: 4px;
-  border-color: #1e1b44;
+  border-color: #1e2b42;
 `;
 
 export const UserInfo = styled.View`

@@ -4,12 +4,12 @@ export const Modal = styled.Modal``;
 
 export const ModalArea = styled.View`
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to bottom, white, purple);
   justify-content: flex-end;
 `;
 
 export const ModalBody = styled.View`
-  background-color: #1e1b44;
+  background-color: #fff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   min-height: 400px;
@@ -19,14 +19,14 @@ export const ModalBody = styled.View`
 export const CloseButton = styled.TouchableOpacity`
   width: 40px;
   height: 40px;
-  background-color: #000;
+  background-color: #1e2b42;
   border-radius: 20px;
   align-items: center;
   justify-content: center;
 `;
 
 export const ModalItem = styled.View`
-  background-color: #000;
+  background-color: #1e2b42;
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -71,7 +71,7 @@ export const ServicePrice = styled.Text`
 export const FinishButton = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #1e2b42;
   border-radius: 10px;
   height: 60px;
 `;

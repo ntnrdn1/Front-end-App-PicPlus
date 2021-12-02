@@ -61,7 +61,7 @@ export default {
     console.log('ADDRESS', address);
 
     const req = await fetch(
-      `${BASE_API}/photographers?token=${token}&address=Florianópolis`,
+      `${BASE_API}/photographers?token=${token}&address=${address}`,
     );
     const json = await req.json();
 
