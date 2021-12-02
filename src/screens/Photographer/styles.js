@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: #000;
+  background-color: #ffa83f;
 `;
 
 export const Scroller = styled.ScrollView`
@@ -33,7 +33,7 @@ export const FakeSwiper = styled.View`
 `;
 
 export const PageBody = styled.View`
-  background-color: #1e2b42;
+  background-color: #fff;
   border-top-left-radius: 50px;
   margin-top: -50px;
   min-height: 400px;
@@ -45,8 +45,8 @@ export const UserAvatar = styled.Image`
   border-radius: 20px;
   margin-left: 30px;
   margin-right: 20px;
-  border-width: 4px;
-  border-color: #1e2b42;
+  border-width: 2px;
+  border-color: #e7e7e7;
 `;
 
 export const UserInfo = styled.View`
@@ -62,15 +62,15 @@ export const UserInfoArea = styled.View`
 export const UserInfoName = styled.Text`
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #1e2b42;
   margin-bottom: 10px;
 `;
 
 export const UserFavButton = styled.TouchableOpacity`
   width: 40px;
   height: 40px;
-  background-color: #fff;
-  border: 2px solid #999999;
+  background-color: #ffffff;
+  border: 0.3px solid #999999;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
@@ -95,7 +95,7 @@ export const ServicesTitle = styled.Text`
   font-weight: bold;
   margin-left: 30px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #1e2b42;
 `;
 
 export const ServiceItem = styled.View`
@@ -112,16 +112,16 @@ export const ServiceInfo = styled.View`
 export const ServiceName = styled.Text`
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #1e2b42;
 `;
 
 export const ServicePrice = styled.Text`
   font-size: 14px;
-  color: #fff;
+  color: #268596;
 `;
 
 export const ServiceChooseButton = styled.TouchableOpacity`
-  background-color: #000;
+  background-color: #1e2b42;
   border-radius: 10px;
   padding: 10px 15px;
 `;
@@ -138,7 +138,7 @@ export const TestimonialArea = styled.View`
 `;
 
 export const TestimonialItem = styled.View`
-  background-color: #000;
+  background-color: #1e2b42;
   padding: 15px;
   border-radius: 10px;
   height: 110px;
@@ -161,5 +161,5 @@ export const TestimonialName = styled.Text`
 
 export const TestimonialBody = styled.Text`
   color: #fff;
-  font-size: 13px;
+  font-size: 10px;
 `;

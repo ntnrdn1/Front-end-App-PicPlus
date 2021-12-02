@@ -189,7 +189,7 @@ export default ({show, setShow, user, service}) => {
           <ModalItem>
             <DateInfo>
               <DatePrevArea onPress={handleLeftDateClick}>
-                <NavPrevIcon width="35" height="35" fill="#fff" />
+                <NavPrevIcon width="35" height="35" fill="#1e2b42" />
               </DatePrevArea>
               <DateTitleArea>
                 <DateTitle>
@@ -197,7 +197,7 @@ export default ({show, setShow, user, service}) => {
                 </DateTitle>
               </DateTitleArea>
               <DateNextArea onPress={handleRightDateClick}>
-                <NavNextIcon width="35" height="35" fill="#fff" />
+                <NavNextIcon width="35" height="35" fill="#1e2b42" />
               </DateNextArea>
             </DateInfo>
 
@@ -211,7 +211,7 @@ export default ({show, setShow, user, service}) => {
                   style={{
                     opacity: item.status ? 1 : 0.4,
                     backgroundColor:
-                      item.number === selectedDay ? '#1e2b42' : '#000',
+                      item.number === selectedDay ? '#1e2b42' : '#1e2b42',
                   }}>
                   <DateItemWeekDay
                     style={{
@@ -243,7 +243,7 @@ export default ({show, setShow, user, service}) => {
                     onPress={() => setSelectedHour(item)}
                     style={{
                       backgroundColor:
-                        item === selectedHour ? '#1e2b42' : '#000',
+                        item === selectedHour ? '#1e2b42' : '#1e2b42',
                     }}>
                     <TimeItemText
                       style={{

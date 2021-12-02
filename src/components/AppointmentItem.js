@@ -22,7 +22,7 @@ const Avatar = styled.Image`
 const UserName = styled.Text`
     font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: #1E2B42;
 `;
 const SplitArea = styled.View`
     flex-direction: row;
@@ -32,7 +32,7 @@ const SplitArea = styled.View`
 const ServiceText = styled.Text`
     font-size: 16px;
     font-weight: bold;
-    color: #000000;
+    color: #1E2B42;
 `;
 const DateText = styled.Text`
     font-size: 16px;
@@ -40,7 +40,7 @@ const DateText = styled.Text`
     color: #FFFFFF;
     padding: 10px 15px;
     border-radius: 10px;
-    background-color: #4EADBE;
+    background-color: #41556E;
 `;
 
 export default ({data}) => {

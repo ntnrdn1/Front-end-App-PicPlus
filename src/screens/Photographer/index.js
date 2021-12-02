@@ -148,8 +148,12 @@ export default () => {
                 style={{height: 110}}
                 showsPagination={false}
                 showsButtons={true}
-                prevButton={<NavPrevIcon width="35" height="35" fill="#fff" />}
-                nextButton={<NavNextIcon width="35" height="35" fill="#fff" />}>
+                prevButton={
+                  <NavPrevIcon width="35" height="35" fill="#1e2b42" />
+                }
+                nextButton={
+                  <NavNextIcon width="35" height="35" fill="#1e2b42" />
+                }>
                 {userInfo.testimonials.map((item, key) => (
                   <TestimonialItem key={key}>
                     <TestimonialInfo>

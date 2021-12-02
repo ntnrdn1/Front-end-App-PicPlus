@@ -4,12 +4,12 @@ export const Modal = styled.Modal``;
 
 export const ModalArea = styled.View`
   flex: 1;
-  background-image: linear-gradient(to bottom, white, purple);
+  background-color: rgba(0, 0, 0, 0.7);
   justify-content: flex-end;
 `;
 
 export const ModalBody = styled.View`
-  background-color: #fff;
+  background-color: #ffcc63;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   min-height: 400px;
@@ -26,7 +26,7 @@ export const CloseButton = styled.TouchableOpacity`
 `;
 
 export const ModalItem = styled.View`
-  background-color: #1e2b42;
+  background-color: #fff;
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -46,7 +46,7 @@ export const UserAvatar = styled.Image`
 `;
 
 export const UserName = styled.Text`
-  color: #fff;
+  color: #1e2b42;
   font-size: 18px;
   font-weight: bold;
 `;
@@ -57,13 +57,13 @@ export const ServiceInfo = styled.View`
 `;
 
 export const ServiceName = styled.Text`
-  color: #fff;
+  color: #1e2b42;
   font-weight: bold;
   font-size: 16px;
 `;
 
 export const ServicePrice = styled.Text`
-  color: #fff;
+  color: #1e2b42;
   font-weight: bold;
   font-size: 16px;
 `;
@@ -106,7 +106,7 @@ export const DateTitleArea = styled.View`
 export const DateTitle = styled.Text`
   font-size: 17px;
   font-weight: bold;
-  color: #fff;
+  color: #1e2b42;
 `;
 
 export const DateList = styled.ScrollView``;
@@ -118,6 +118,8 @@ export const DateItem = styled.TouchableOpacity`
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 `;
 
 export const DateItemWeekDay = styled.Text`
@@ -140,6 +142,8 @@ export const TimeItem = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
 `;
 
 export const TimeItemText = styled.Text`
